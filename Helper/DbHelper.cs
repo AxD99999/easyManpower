@@ -4,8 +4,8 @@ using System.Data;
 using Dapper;
 public class DbConn
 {
-    //public static string ConnectionString = "Server=WIN-PLO3PGFAQN8\\SQLEXPRESS;Database=quickAppDB;user id=sa;password=sa@123;MultipleActiveResultSets=true;";
-    public static string ConnectionString = "Server=Sedai;Database=manpowerDB;Trusted_Connection=True;TrustServerCertificate=true;";
+    public static string ConnectionString = "Server=WIN-PLO3PGFAQN8\\SQLEXPRESS;Database=manpowerDB;user id=sa;password=sa@123;MultipleActiveResultSets=true;";
+    //public static string ConnectionString = "Server=Sedai;Database=manpowerDB;Trusted_Connection=True;TrustServerCertificate=true;";
 }
 
 public class DbHelper

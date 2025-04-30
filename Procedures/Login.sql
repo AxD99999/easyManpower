@@ -13,7 +13,7 @@ BEGIN
     END
 
     -- Validate Company ID
-    IF NOT EXISTS (SELECT 1 FROM comInfo WHERE @ComID=id)
+    IF NOT EXISTS (SELECT 1 FROM comInfo WHERE @ComID=clientID)
     BEGIN
         SELECT 201 AS StatusCode, 'Company does not exist.' AS Message;
         RETURN;
@@ -41,7 +41,7 @@ BEGIN
 	END
 
 	-- Validate License
-	IF ((SELECT LicenseExp FROM comInfo WHERE @ComID=id) < GETDATE())
+	IF ((SELECT LicenseExp FROM comInfo WHERE @ComID=clientID) < GETDATE())
 	BEGIN
 		SELECT 205 AS StatusCode, 'License Expired.' AS Message;
         RETURN;
@@ -49,7 +49,7 @@ BEGIN
 
     -- Update Last Login
     UPDATE usernamePwd
-	SET lastLogin = CONVERT(NVARCHAR(100), GETDATE(), 23)
+	SET lastLogin = GETDATE()
 	WHERE userName = @UserName;
 
 	-- Delete Old AuthCode for User
@@ -67,7 +67,7 @@ BEGIN
 	-- Return required values
 	SELECT
 		@AuthToken as AuthCode,
-		a.id as ComID,
+		a.clientID as ComID,
 		a.comName as ComName,
 		a.comAddress as ComAddress,
 		a.comTelephone as ComTel,
@@ -80,7 +80,7 @@ BEGIN
 		u.branchAccess as BranchAddress,
 		u.branchID as BranchID
 	FROM usernamePwd u
-	JOIN comInfo a ON u.myID = a.myID
+	JOIN comInfo a ON u.comid = a.clientID
 	WHERE u.userName = @UserName;
 
     -- Success response

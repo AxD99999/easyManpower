@@ -1,6 +1,6 @@
 ﻿public class ChangePassword
 {
-    public int? ComID { get; set; }
+    public string? ComID { get; set; }
     public int? UserID { get; set; }
     public string? AuthCode { get; set; }
     public string? OldPass { get; set; }
