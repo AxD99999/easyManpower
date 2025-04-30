@@ -21,7 +21,21 @@ builder.Services.AddScoped<ILogin, LoginService>();
 builder.Services.AddScoped<ISession, SessionService>();
 builder.Services.AddScoped<IChangePassword, ChangePasswordService>();
 
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
+
+// Use CORS middleware
+app.UseCors("AllowAllOrigins");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
