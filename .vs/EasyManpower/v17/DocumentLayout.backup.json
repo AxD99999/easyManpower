@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\controllers\\changepasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\controllers\\changepasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "EasyManpower\\Controllers\\SessionController.cs",
+              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\SessionController.cs*",
+              "RelativeToolTip": "EasyManpower\\Controllers\\SessionController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:52:35.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Program.cs",
+              "RelativeDocumentMoniker": "EasyManpower\\Program.cs",
+              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Program.cs",
+              "RelativeToolTip": "EasyManpower\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:42:56.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "EasyManpower\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "EasyManpower\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:41:16.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangePasswordController.cs",
+              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\ChangePasswordController.cs",
+              "RelativeDocumentMoniker": "EasyManpower\\Controllers\\ChangePasswordController.cs",
+              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\ChangePasswordController.cs",
+              "RelativeToolTip": "EasyManpower\\Controllers\\ChangePasswordController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:41:12.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

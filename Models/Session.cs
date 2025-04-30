@@ -1,0 +1,12 @@
+﻿public class Session
+{
+    public int? ComID { get; set; }
+    public int? UserID { get; set; }
+    public string? AuthCode { get; set; }
+    public string? Device { get; set; }
+}
+
+public class SessionRes : CommonResponse
+{
+    public List<dynamic>? SessionList { get; set; }
+}
