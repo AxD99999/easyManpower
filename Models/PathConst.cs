@@ -5,14 +5,14 @@ public class PathConstant
     public static string file_loc(string ComID)
     {
 
-        // return "E:\\easysoftware\\easy School\\easysch\\" + ComID + "\\";    //LIVE URL
-        return "C:\\Users\\Anamol\\Pictures\\EasySoft" + ComID + "\\";
+         return "https://testing.esnep.com/assets/manpower/" + ComID + "/";    //LIVE URL
+        //return "C:\\Users\\Anamol\\Pictures\\EasySoft" + ComID + "\\";
     }
 
     public static string file_url()
     {
 
-        // return "https://esnep.com/easysch/" + ComID + "/";    //LIVE URL
-        return "C:\\Users\\Anamol\\Pictures\\EasySoft\\";
+        return "https://testing.esnep.com/assets/manpower/";    //LIVE URL
+        //return "C:\\Users\\Anamol\\Pictures\\EasySoft\\";
     }
 }

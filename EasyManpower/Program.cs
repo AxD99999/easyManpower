@@ -20,6 +20,12 @@ builder.Services.AddSingleton<DapperContext>();
 builder.Services.AddScoped<ILogin, LoginService>();
 builder.Services.AddScoped<ISession, SessionService>();
 builder.Services.AddScoped<IChangePassword, ChangePasswordService>();
+builder.Services.AddScoped<IUpdateUser, UpdateUserService>();
+builder.Services.AddScoped<ICountrySet, CountrySetService>();
+builder.Services.AddScoped<IPostSet, PostSetService>();
+builder.Services.AddScoped<IRefCountrySet, RefCountrySetService>();
+builder.Services.AddScoped<IRefOutCountrySet, RefOutCountrySetService>();
+builder.Services.AddScoped<ICompanySet, CompanySetService>();
 
 // Add CORS
 builder.Services.AddCors(options =>

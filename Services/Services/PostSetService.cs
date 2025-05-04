@@ -1,27 +1,30 @@
 ﻿using Dapper;
 using System.Data;
 using Microsoft.AspNetCore.Mvc;
-public class SessionService : ISession
+public class PostSetService : IPostSet
 {
     private readonly DapperContext _dapperContext;
 
-    public SessionService(DapperContext dapperContext)
+    public PostSetService(DapperContext dapperContext)
     {
         _dapperContext = dapperContext;
     }
 
-    public async Task<SessionRes> SessionAsync(Session session)
+    public async Task<PostSetRes> PostSetAsync(PostSet postSet)
     {
         using var connection = _dapperContext.CreateConnection();
-        var sql = "spSession"; // Stored procedure name
-        var res = new SessionRes();
+        var sql = "spPostSetting"; // Stored procedure name
+        var res = new PostSetRes();
         var Parameters = new DynamicParameters();
 
-        Parameters.Add("@ComID", session.ComID);
-        Parameters.Add("@UserID", session.UserID);
-        Parameters.Add("@AuthCode", session.AuthCode);
-        Parameters.Add("@Device", session.Device);
-        Parameters.Add("@ImgPath", PathConstant.file_url());
+        Parameters.Add("@UserID", postSet.UserID);
+        Parameters.Add("@AuthCode", postSet.AuthCode);
+        Parameters.Add("@Device", postSet.Device);
+        Parameters.Add("@ID", postSet.ID);
+        Parameters.Add("@Post", postSet.Post);
+        Parameters.Add("@Status", postSet.Status);
+        Parameters.Add("@Flag", postSet.Flag);
+
 
         var data = DbHelper.RunProc<dynamic>(sql, Parameters);
 
@@ -30,19 +33,19 @@ public class SessionService : ISession
         {
             res.StatusCode = 200;
             res.Message = "Success";
-            res.SessionList = data.ToList();
+            res.PostSetList = data.ToList();
         }
         else if (data.Count() == 1 && data.FirstOrDefault().Message != null)
         {
             res.StatusCode = data.FirstOrDefault().StatusCode;
             res.Message = data.FirstOrDefault().Message;
-            res.SessionList = null;
+            res.PostSetList = null;
         }
         else
         {
             res.StatusCode = 400;
             res.Message = "No Data";
-            res.SessionList = null;
+            res.PostSetList = null;
         }
 
         return res;

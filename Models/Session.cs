@@ -4,6 +4,7 @@
     public int? UserID { get; set; }
     public string? AuthCode { get; set; }
     public string? Device { get; set; }
+    public string? ImgPath { get; set; }
 }
 
 public class SessionRes : CommonResponse

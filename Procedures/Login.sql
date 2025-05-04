@@ -1,8 +1,9 @@
 ALTER PROCEDURE spLogin
-    @ComID VARCHAR(250) = NULL,
-	@UserName VARCHAR(250) = NULL,
-	@Password VARCHAR(MAX) = NULL,
-    @Device VARCHAR(2) = NULL
+    @ComID NVARCHAR(250) = NULL,
+	@UserName NVARCHAR(250) = NULL,
+	@Password NVARCHAR(MAX) = NULL,
+    @Device NVARCHAR(2) = NULL,
+	@ImgPath NVARCHAR(MAX) = NULL
 AS
 BEGIN
 	-- Empty Validation
@@ -71,7 +72,7 @@ BEGIN
 		a.comName as ComName,
 		a.comAddress as ComAddress,
 		a.comTelephone as ComTel,
-		a.comLogo as ComLogo,
+		@ImgPath + a.comLogo as ComLogo,
 		u.id as UserID,
 		u.fullName as FullName,
 		u.userAddress as Address,

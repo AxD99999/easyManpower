@@ -1,9 +1,12 @@
-ALTER PROCEDURE spSession
+ALTER PROCEDURE spUpdateUserProfile
     @ComID NVARCHAR(250) = NULL,
 	@UserID INT = NULL,
 	@AuthCode NVARCHAR(MAX) = NULL,
     @Device NVARCHAR(2) = NULL,
-	@ImgPath NVARCHAR(MAX) = NULL
+	@FullName NVARCHAR(MAX) = NULL,
+	@Address NVARCHAR(MAX) = NULL,
+	@Phone NVARCHAR = NULL,
+	@Mobile NVARCHAR = NULL
 AS
 BEGIN
 	-- Empty Validation
@@ -41,26 +44,16 @@ BEGIN
         RETURN;
 	END
 
-	-- Return required values
-	SELECT
-		a.clientID as ComID,
-		a.comName as ComName,
-		a.comAddress as ComAddress,
-		a.comTelephone as ComTel,
-		@ImgPath + a.comLogo as ComLogo,
-		u.id as UserID,
-		u.fullName as FullName,
-		u.userAddress as Address,
-		u.userPhone as Phone,
-		u.userMobile as Mobile,
-		u.branchAccess as BranchAddress,
-		u.branchID as BranchID
-	FROM usernamePwd u
-	JOIN comInfo a ON u.comID = a.clientID
-	WHERE u.id = @UserID;
+	-- Update profile elements that are not null
+	UPDATE usernamePwd
+	SET
+		fullName = ISNULL(@FullName, fullName),
+		userAddress = ISNULL(@Address, userAddress),
+		userPhone = ISNULL(@Phone, userPhone),
+		userMobile = ISNULL(@Mobile, userMobile)
+	WHERE @UserID = id;
 
     -- Success response
     SELECT 200 AS StatusCode, 'Success' AS Message;
     RETURN;
 END;
-

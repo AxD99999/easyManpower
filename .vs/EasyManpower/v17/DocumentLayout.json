@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A0961AB-F0C3-496C-9E08-1402A6837075}|Helper\\Helper.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\helper\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A0961AB-F0C3-496C-9E08-1402A6837075}|Helper\\Helper.csproj|solutionrelative:helper\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\controllers\\changepasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\controllers\\changepasswordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|c:\\users\\anamol\\desktop\\passportrecogbackend\\easymanpower\\easymanpower\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9EA0218-F2EC-4621-B04B-F453FB80AE1B}|EasyManpower\\EasyManpower.csproj|solutionrelative:easymanpower\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Program.cs",
-              "RelativeDocumentMoniker": "EasyManpower\\Program.cs",
-              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Program.cs",
-              "RelativeToolTip": "EasyManpower\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowBoAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T13:57:41.214Z",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\appsettings.json",
+              "RelativeDocumentMoniker": "EasyManpower\\appsettings.json",
+              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\appsettings.json",
+              "RelativeToolTip": "EasyManpower\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T06:49:00.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SessionController.cs",
-              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\SessionController.cs",
-              "RelativeDocumentMoniker": "EasyManpower\\Controllers\\SessionController.cs",
-              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\SessionController.cs",
-              "RelativeToolTip": "EasyManpower\\Controllers\\SessionController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\Helper\\DbHelper.cs",
+              "RelativeDocumentMoniker": "Helper\\DbHelper.cs",
+              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\Helper\\DbHelper.cs",
+              "RelativeToolTip": "Helper\\DbHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:19:06.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChangePasswordController.cs",
-              "DocumentMoniker": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\ChangePasswordController.cs",
-              "RelativeDocumentMoniker": "EasyManpower\\Controllers\\ChangePasswordController.cs",
-              "ToolTip": "C:\\Users\\Anamol\\Desktop\\PassPortRecogBackEnd\\EasyManpower\\EasyManpower\\Controllers\\ChangePasswordController.cs",
-              "RelativeToolTip": "EasyManpower\\Controllers\\ChangePasswordController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T08:18:53.671Z",
+              "WhenOpened": "2025-05-04T06:48:46.768Z",
               "EditorCaption": ""
             }
           ]

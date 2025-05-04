@@ -21,6 +21,7 @@ public class LoginService : ILogin
         Parameters.Add("@UserName", login.UserName);
         Parameters.Add("@@Password", login.Password);
         Parameters.Add("@Device", login.Device);
+        Parameters.Add("@ImgPath", PathConstant.file_url());
 
         var data = DbHelper.RunProc<dynamic>(sql, Parameters);
 
